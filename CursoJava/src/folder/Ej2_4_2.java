@@ -8,10 +8,7 @@ package Ejercicios2;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-/**
- *
- * @author Sergio
- */
+
 public class Ej2_4_2 {
 
     /**
