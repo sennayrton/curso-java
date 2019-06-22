@@ -20,10 +20,8 @@ public class notasalumnos {
         } while (alum <= 0); 
 
         System.out.print("Nota del alumno 1: ");
-        nota = sc.nextDouble(); 
-       
-        suma = suma + nota; 
-       
+        nota = sc.nextDouble();
+        suma = suma + nota;
         mayor = nota; 
         menor = nota;
        
@@ -38,8 +36,7 @@ public class notasalumnos {
             }
         }
 
-        
-        System.out.printf("Nota media: %.2f %n" , suma/alum);
+        System.out.printf("La nota media ha sido: %.2f %n" , suma/alum);
         System.out.println("La nota más alta ha sido " + mayor);
         System.out.println("La nota más baja ha sido " + menor);
     }
